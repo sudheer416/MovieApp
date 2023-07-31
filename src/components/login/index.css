@@ -1,0 +1,99 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://s3-alpha-sig.figma.com/img/8cca/f66f/19edc15e3aa6b6a1301fd6667bf2509e?Expires=1691366400&Signature=DUR0M42bh1ETdHnOuyU2Zz6UmyalUPjRDNciW7wlqG8BGBgcV0FTZlY3rXc06CLHgU8mqBsAHOKUlU8hBiHcv-5ND9-j7lbKtczndH03K53oWdAef-7PI6dxPVLrWQvA20KZ3W6zvpjW0kUcTiVa4VR6qHBpZQPnJlQ-XlDRBbWrhSRjWcxzchTw7LzpPX2x8TXmZ0iRjm6LnfLYBaBGI-0yad5lw-4Qf73r1qGQkjPmmyittwBOhusgusPs7jRTIX2Do7iZcuJcF908MhYZbLeDQIT2K~JD5OzV5M9WM8s-~XQ~juxw3czVXxsPP-IJWCRLnU5e91x4LcgPb~nZtQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+   
+    margin: 0px;
+    
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    border-radius: 8px;
+    opacity: 0.800000011920929;
+    background: #0C0B10;
+    width: 456px;
+    height: 440px;
+    flex-shrink: 0;
+    
+  }
+  .log-header{
+    color: var(--general-white, #FFF);
+    text-align: center;
+    font-family: HK Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    margin-bottom: 15%;
+  }
+  .inputlabel{
+    display: flex;
+    flex-direction: column;
+    
+    color: #FFF;
+    font-family: HK Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+  }
+  label{
+    color: #FFF;
+font-family: HK Grotesk;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 133.333% */
+letter-spacing: 0.12px;
+text-transform: uppercase;
+  }
+
+
+  input{
+    width: 360px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    border-radius: 2px;
+ background: #333;
+
+  }
+.submit{
+    margin-top: 10%;
+    display: flex;
+    width: 360px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E50914;
+
+}
+@media screen and (max-width: 991px) {
+    .login-form-container{
+        background-image: none;
+        
+    }
+    .form-container{
+        height: 100%;
+        justify-content: center;
+        
+
+    }
+    .log-header{
+        text-align: start;
+    }
+  }
